@@ -1,0 +1,23 @@
+{
+  "name": "rainbowsunshine",
+  "authors": [
+    "Rafael Real <srerrereal@gmail.com>"
+  ],
+  "description": "Website",
+  "main": "index.html",
+  "keywords": [
+    "Rainbow",
+    "Sunshine",
+    "Book"
+  ],
+  "license": "MIT",
+  "homepage": "rafaelreal.com.br",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
