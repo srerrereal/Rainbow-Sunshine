@@ -1,27 +1,29 @@
-$(document).ready(function(){
+new fullpage('#fullPage',{
 
-  anime({
-    targets: '.rainbow',
-    translateX: [0, -10],
-    loop:true,
-    delay: 1000,
-    duration:500,
-    direction:'alternate',
-    easing:'linear'
-
-  });
-  anime({
-    targets: '.sunshine',
-    translateX: [0, 10],
-    loop:true,
-    delay: 1000,
-    duration:500,
-    direction:'alternate',
-    easing:'linear'
-
-  });
-  $('.js-tilt').tilt({
-    scale: 1.2
-});
-
+  autoScrolling: true,
+  css3: true,
+	scrollingSpeed: 700,
+	autoScrolling: true,
+	fitToSection: true,
+	fitToSectionDelay: 1000,
+	scrollBar: false,
+	easing: 'easeInOutCubic',
+	easingcss3: 'ease',
+	loopBottom: false,
+	loopTop: false,
+	loopHorizontal: true,
+	continuousVertical: false,
+	continuousHorizontal: false,
+	scrollHorizontally: false,
+	interlockedSlides: false,
+	dragAndMove: false,
+	offsetSections: false,
+	resetSliders: false,
+	fadingEffect: false,
+	scrollOverflow: false,
+	scrollOverflowReset: false,
+	scrollOverflowOptions: null,
+	touchSensitivity: 15,
+	bigSectionsDestination: null,
+  anchors:['home', 'about', 'contact'],
 })

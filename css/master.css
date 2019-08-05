@@ -3,50 +3,161 @@
   src: url('../font/chaparral.ttf');
 }
 
-a{
-  text-decoration: none;
+ #header{
+  background-color: rgba(255, 247, 239, 0.49);
+
+  height: 172px;
+  margin-top: -58px;
 }
 
-#headeroverflow{
-  z-index: 20;
-  background-color: #fff;
-  height: 100px;
-  padding-top: 20px;
+#Title{
   font-family: 'chaparral';
-  font-size: 32px;
-  font-style: none;
-  color: #525c5c;
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
- top: 0; /* Position the navbar at the top of the page */
- width: 100%; /* Full width */
- box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  font-size: 60px;
+  color: #203985;
+  padding-top: 55px;
+  z-index: 7;
 }
-#header, #links, a{
-  text-decoration: none;
+#Subtitle{
+  font-family: 'chaparral';
+  font-size: 15px;
+  font-style: italic;
+  color: #3b59b4;
+  z-index: 7;
+  margin-top: -14px;
 }
 
-#home{
+#section1{
+  background-color: rgb(255, 201, 148);
+}
 
+.quote{
+  font-family: 'chaparral';
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+  margin-top: 39px;
 }
-.rainbow{
-}
-.logo{
-  position: relative;
-  margin-top: 242px;
-  z-index: 10;
-}
-.bg{
-  position: fixed;
-  left: 0;
-  z-index: 9;
-}
+
 .text{
   font-family: 'chaparral';
-  position: relative;
-  font-size: 64px;
-  color: #fff;
-  text-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
-  margin-top:33px ;
-  z-index: 10;
+  font-size: 14px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.block-size{
+  max-width:435px;
+}
+
+
+#section2{
+  background-color: #E0726D;
+}
+
+#my-video{
+  margin-left: 60px;
+}
+
+.shauna-text-box{
+  margin-right: 60px;
+}
+.about-text-box-below{
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.title-name{
+  font-family: 'chaparral';
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  color: #ccffcc;
+}
+.bio{
+  font-family: 'chaparral';
+  font-size: 20px;
+  font-weight: bold;
+  color: #ccffcc;
+}
+
+.about-text{
+    font-family: 'chaparral';
+    font-size: 17px;
+    color: #000;
+}
+
+#section3{
+  background-color: #D27E9B;
+}
+
+.full-height{
+height: 100%;
+}
+
+.top-col-contact{
+  margin-top: -120px;
+}
+
+.contact-title{
+  font-family: 'chaparral';
+  font-size: 36px;
+  color: #000;
+  font-weight: lighter;
+}
+.contact-subtitle{
+  font-family: 'chaparral';
+  font-size: 28px;
+  color: #000;
+  font-weight: bold;
+}
+
+.brainchild{
+  margin-top: 40px;
+}
+
+.page-footer{
+  position: absolute;
+  height: 160px;
+  width: 100%;
+  background-color: #fff;
+  bottom: 0;
+}
+
+.footer-title{
+  font-family: 'chaparral';
+  font-size: 38px;
+  /* margin-top: 24px; */
+  font-weight: lighter;
+  color: #ff9600;
+}
+.footer-text{
+  font-family: 'chaparral';
+  font-size: 18px;
+  color: #000;
+  font-weight: 100;
+
+}
+.video-js{
+$primary-foreground-color: #A90149;
+$primary-background-color: #090F49;
+}
+
+.newsletter{
+  font-family: 'chaparral';
+  /* margin-top: 30px; */
+}
+.submit-button{
+margin-top: 18px;
+}
+#btn-submit{
+  background-color: #fdead7;
+  color: #676767;
+  font-family: 'chaparral';
+  border: none;
+  width: 120px;
+}
+.mailtype{
+  background-color: #fdead7;
+  margin-top: 7px;
 }
